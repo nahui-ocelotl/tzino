@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="11295" height="28005">
+  <BOUNDS type="Window" width="11265" height="28005">
   </BOUNDS>
   <NODE id="155" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="15210" top="1200" width="100" height="100">
@@ -267,7 +267,7 @@
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|height|">
   </PIN>
-  <PIN pinname="Property Value" visible="1" values="|200px|">
+  <PIN pinname="Property Value" visible="1" values="|100px|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -531,7 +531,7 @@
   </PIN>
   <PIN pinname="Parent" visible="1">
   </PIN>
-  <PIN pinname="Text" visible="1" values="|¡Hola!|">
+  <PIN pinname="Text" visible="1">
   </PIN>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -541,7 +541,7 @@
   </PIN>
   </NODE>
   <NODE id="215" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8625" top="7230" width="100" height="100">
+  <BOUNDS type="Node" left="8625" top="7215" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -549,7 +549,7 @@
   </PIN>
   <PIN pinname="Parent" visible="1">
   </PIN>
-  <PIN pinname="Text" visible="1" values="|Tzino!|">
+  <PIN pinname="Text" visible="1">
   </PIN>
   <PIN pinname="Enabled" visible="1">
   </PIN>
@@ -580,6 +580,38 @@
   <PIN pinname="Property Value" visible="1" values="|silver|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="220" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
+  <BOUNDS type="Box" left="6705" top="3900" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input Node" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ Layers out|">
+  </PIN>
+  </NODE>
+  <NODE id="221" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="2415" top="6195" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|¡Hola!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ caxtilan|">
+  </PIN>
+  </NODE>
+  <NODE id="222" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="9795" top="6330" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Tzino!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|_ mexicah|">
   </PIN>
   </NODE>
   <LINK srcnodeid="158" srcpinname="Style Out" dstnodeid="159" dstpinname="Style In">
@@ -667,5 +699,11 @@
   <LINK srcnodeid="218" srcpinname="Style Out" dstnodeid="201" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="219" srcpinname="Style Out" dstnodeid="207" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="220" srcpinname="Output Node" dstnodeid="172" dstpinname="Parent">
+  </LINK>
+  <LINK srcnodeid="221" srcpinname="Output String" dstnodeid="214" dstpinname="Text">
+  </LINK>
+  <LINK srcnodeid="222" srcpinname="Output String" dstnodeid="215" dstpinname="Text">
   </LINK>
   </PATCH>
