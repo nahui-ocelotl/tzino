@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="11385" height="28005">
+  <BOUNDS type="Window" width="10935" height="28005">
   </BOUNDS>
   <NODE id="155" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="15210" top="1200" width="100" height="100">
@@ -165,13 +165,9 @@
   </PIN>
   </NODE>
   <NODE id="224" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="570" top="1350" width="100" height="100">
+  <BOUNDS type="Node" left="825" top="3405" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ caxtilan" visible="1" values="|¡Hola!|">
-  </PIN>
-  <PIN pinname="_ mexicah" visible="1" values="|Tzino!|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -194,62 +190,72 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="226" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3180" top="1260" width="100" height="100">
+  <NODE id="231" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="3030" top="1245" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
+  <PIN pinname="Element" visible="1">
   </PIN>
-  <PIN pinname="_ caxtilan" visible="1" values="|¡Buen camino!|">
+  <PIN pinname="Attribute Name" visible="1" values="|class|">
   </PIN>
-  <PIN pinname="_ mexicah" visible="1" values="|Cualli ohtli!|">
+  <PIN pinname="Attribute Value" visible="1">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="227" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="675" top="2355" width="100" height="100">
+  <NODE id="232" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3825" top="720" width="1530" height="0">
   </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
+  <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="_ caxtilan" visible="1" values="|¡Sí!|">
+  <PIN pinname="Input String" visible="1" values="|container-fluid|">
   </PIN>
-  <PIN pinname="_ mexicah" visible="1" values="|Quemah!|">
+  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="228" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3090" top="2310" width="100" height="100">
+  <NODE id="233" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2085" top="1605" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
+  <PIN pinname="Style In" visible="1">
   </PIN>
-  <PIN pinname="_ caxtilan" visible="1" values="|¡No!|">
+  <PIN pinname="Tag Name" visible="1">
   </PIN>
-  <PIN pinname="_ mexicah" visible="1" values="|Ahmo!|">
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="229" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="615" top="3105" width="100" height="100">
+  <NODE id="234" nodename="SetAttribute (HTML)" systemname="SetAttribute (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="2970" top="2505" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
+  <PIN pinname="Element" visible="1">
   </PIN>
-  <PIN pinname="_ caxtilan" visible="1" values="|¿Cómo estás?|">
+  <PIN pinname="Attribute Name" visible="1" values="|class|">
   </PIN>
-  <PIN pinname="_ mexicah" visible="1" values="|Quen tica?|">
+  <PIN pinname="Attribute Value" visible="1">
+  </PIN>
+  <PIN pinname="Attribute BinSize" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="230" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="3030" top="3060" width="100" height="100">
+  <NODE id="236" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3765" top="1950" width="2250" height="0">
   </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
+  <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="_ caxtilan" visible="1" values="|Bien|">
+  <PIN pinname="Input String" visible="1" values="|-card-deck card-columns|">
   </PIN>
-  <PIN pinname="_ mexicah" visible="1" values="|Cualli|">
+  <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -276,16 +282,16 @@
   </LINK>
   <LINK srcnodeid="171" srcpinname="Style Out" dstnodeid="170" dstpinname="Style">
   </LINK>
-  <LINK srcnodeid="225" srcpinname="Layers Out" dstnodeid="224" dstpinname="_ Layers out">
+  <LINK srcnodeid="225" srcpinname="Layers Out" dstnodeid="231" dstpinname="Element">
   </LINK>
-  <LINK srcnodeid="225" srcpinname="Layers Out" dstnodeid="226" dstpinname="_ Layers out">
+  <LINK srcnodeid="232" srcpinname="Output String" dstnodeid="231" dstpinname="Attribute Value">
   </LINK>
-  <LINK srcnodeid="225" srcpinname="Layers Out" dstnodeid="227" dstpinname="_ Layers out">
+  <LINK srcnodeid="233" srcpinname="Layers Out" dstnodeid="234" dstpinname="Element">
   </LINK>
-  <LINK srcnodeid="225" srcpinname="Layers Out" dstnodeid="228" dstpinname="_ Layers out">
+  <LINK srcnodeid="225" srcpinname="Layers Out" dstnodeid="233" dstpinname="Parent">
   </LINK>
-  <LINK srcnodeid="225" srcpinname="Layers Out" dstnodeid="229" dstpinname="_ Layers out">
+  <LINK srcnodeid="236" srcpinname="Output String" dstnodeid="234" dstpinname="Attribute Value">
   </LINK>
-  <LINK srcnodeid="225" srcpinname="Layers Out" dstnodeid="230" dstpinname="_ Layers out">
+  <LINK srcnodeid="233" srcpinname="Layers Out" dstnodeid="224" dstpinname="_ Layers out">
   </LINK>
   </PATCH>
