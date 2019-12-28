@@ -5,14 +5,12 @@ For demo purpose
 body {
   margin-top: 15px;
   margin-bottom: 15px;
-  background: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/strange_bullseyes.png);
-  font-family: 'Roboto', sans-serif;
   -webkit-perspective: 1000;
           perspective: 1000;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Barrio', cursive;
+  font-family: 'Arial';
 }
 
 .card-title {
