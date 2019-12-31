@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18705" height="28005">
+  <BOUNDS type="Window" width="20235" height="28005">
   </BOUNDS>
   <NODE id="220" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
   <BOUNDS type="Box" left="8655" top="225" width="100" height="100">
@@ -91,7 +91,7 @@
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|card-front bg-dark|">
+  <PIN pinname="Input String" visible="1" values="|card-front bg-dark text-white|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
@@ -387,11 +387,11 @@
   </PIN>
   </NODE>
   <NODE id="276" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="10905" top="1650" width="900" height="0">
+  <BOUNDS type="Box" left="10905" top="1635" width="900" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|col-sm-4|">
+  <PIN pinname="Input String" visible="1" values="|col-sm-6|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
