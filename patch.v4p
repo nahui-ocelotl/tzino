@@ -1,21 +1,7 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="19740" height="25065">
+  <BOUNDS type="Window" width="20235" height="25065">
   </BOUNDS>
-  <NODE id="386" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="1845" top="4485" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="387" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
   <BOUNDS type="Node" left="18210" top="1425" width="100" height="100">
   </BOUNDS>
@@ -145,7 +131,7 @@
   </PIN>
   </NODE>
   <NODE id="400" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1875" top="390" width="100" height="100">
+  <BOUNDS type="Node" left="3420" top="270" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -163,7 +149,7 @@
   </PIN>
   </NODE>
   <NODE id="402" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="2985" top="360" width="990" height="0">
+  <BOUNDS type="Box" left="4530" top="240" width="990" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -175,7 +161,7 @@
   </PIN>
   </NODE>
   <NODE id="403" nodename="AddClass (HTML)" systemname="AddClass (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2535" top="1005" width="100" height="100">
+  <BOUNDS type="Node" left="4080" top="885" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -188,22 +174,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="404" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="6210" top="4380" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="405" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1740" top="3585" width="720" height="0">
+  <BOUNDS type="Box" left="1740" top="3510" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -215,7 +187,7 @@
   </PIN>
   </NODE>
   <NODE id="407" nodename="Element (HTML)" systemname="Element (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4035" top="1560" width="100" height="100">
+  <BOUNDS type="Node" left="3480" top="1575" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -233,7 +205,7 @@
   </PIN>
   </NODE>
   <NODE id="408" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="5145" top="1530" width="450" height="0">
+  <BOUNDS type="Box" left="4665" top="1605" width="450" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -245,7 +217,7 @@
   </PIN>
   </NODE>
   <NODE id="409" nodename="AddClass (HTML)" systemname="AddClass (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="4695" top="2175" width="100" height="100">
+  <BOUNDS type="Node" left="4215" top="2250" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -259,7 +231,7 @@
   </PIN>
   </NODE>
   <NODE id="412" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="2880" top="3540" width="720" height="0">
+  <BOUNDS type="Box" left="3075" top="3540" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -271,7 +243,7 @@
   </PIN>
   </NODE>
   <NODE id="413" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="5685" top="3600" width="720" height="0">
+  <BOUNDS type="Box" left="4320" top="3540" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -283,7 +255,7 @@
   </PIN>
   </NODE>
   <NODE id="414" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="7005" top="3630" width="720" height="0">
+  <BOUNDS type="Box" left="5835" top="3570" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -294,22 +266,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="415" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2055" top="6135" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="416" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1530" top="5355" width="720" height="0">
+  <BOUNDS type="Box" left="1635" top="8985" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -321,7 +279,7 @@
   </PIN>
   </NODE>
   <NODE id="417" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="2850" top="5385" width="720" height="0">
+  <BOUNDS type="Box" left="2955" top="9015" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -332,22 +290,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="418" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5745" top="6165" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="419" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="5220" top="5385" width="720" height="0">
+  <BOUNDS type="Box" left="4455" top="9045" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -359,7 +303,7 @@
   </PIN>
   </NODE>
   <NODE id="420" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="6540" top="5415" width="720" height="0">
+  <BOUNDS type="Box" left="5775" top="9000" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -370,22 +314,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="421" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2175" top="8130" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="422" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1650" top="7350" width="720" height="0">
+  <BOUNDS type="Box" left="1845" top="10860" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -397,7 +327,7 @@
   </PIN>
   </NODE>
   <NODE id="423" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="2970" top="7380" width="720" height="0">
+  <BOUNDS type="Box" left="3165" top="10890" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -408,22 +338,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="424" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5925" top="7965" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="425" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="5400" top="7185" width="720" height="0">
+  <BOUNDS type="Box" left="4665" top="10635" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -435,33 +351,19 @@
   </PIN>
   </NODE>
   <NODE id="426" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="6720" top="7215" width="720" height="0">
+  <BOUNDS type="Box" left="6120" top="10620" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|Amital|">
+  <PIN pinname="Input String" visible="1" values="|Amitla|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="427" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2220" top="10125" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="428" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1695" top="9345" width="720" height="0">
+  <BOUNDS type="Box" left="1800" top="12540" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -473,7 +375,7 @@
   </PIN>
   </NODE>
   <NODE id="429" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="3015" top="9375" width="720" height="0">
+  <BOUNDS type="Box" left="3120" top="12570" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -484,22 +386,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="430" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5970" top="9960" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="431" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="5445" top="9180" width="720" height="0">
+  <BOUNDS type="Box" left="4785" top="12480" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -511,7 +399,7 @@
   </PIN>
   </NODE>
   <NODE id="432" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="6765" top="9210" width="720" height="0">
+  <BOUNDS type="Box" left="6060" top="12450" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -522,22 +410,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="433" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2400" top="12015" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="434" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1875" top="11235" width="720" height="0">
+  <BOUNDS type="Box" left="1590" top="17640" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -549,7 +423,7 @@
   </PIN>
   </NODE>
   <NODE id="435" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="3195" top="11265" width="720" height="0">
+  <BOUNDS type="Box" left="3285" top="17670" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -560,22 +434,8 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="436" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="6150" top="11850" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="_ Layers out" visible="1">
-  </PIN>
-  <PIN pinname="_ front-text" visible="1">
-  </PIN>
-  <PIN pinname="_ back-text" visible="1">
-  </PIN>
-  <PIN pinname="_ card-front" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="437" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="5610" top="11070" width="720" height="0">
+  <BOUNDS type="Box" left="5340" top="17625" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -587,13 +447,493 @@
   </PIN>
   </NODE>
   <NODE id="438" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="6945" top="11100" width="720" height="0">
+  <BOUNDS type="Box" left="6675" top="17655" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
-  <PIN pinname="Input String" visible="1" values="|Nochan ompa...|">
+  <PIN pinname="Input String" visible="1" values="|Nochan...|">
   </PIN>
   <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="440" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1785" top="5340" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|¡Buen amanecer!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="441" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3105" top="5370" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Cualli tlaneci!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="443" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="4650" top="5460" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|¡Buen día!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="444" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="5820" top="5445" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Cualli Tonalli!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="446" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1680" top="7260" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|¡Buena tarde!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="447" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3000" top="7290" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Cualli teotlac!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="449" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="4545" top="7380" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|¡Buenas noches!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="450" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="5940" top="7485" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Cualli Yohualli!|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="452" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1815" top="16050" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|¿Cómo te llamas?|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="453" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3135" top="16080" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Quen motoca?|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="455" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="5160" top="16035" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Me llamo...|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="456" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="6330" top="15960" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Notoca...|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="458" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1680" top="19335" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Pasa|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="459" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="3495" top="19365" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Mah xitipano|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="461" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="5235" top="19215" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Pasen|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="462" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="6570" top="19245" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Mah xitipanocan|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="464" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="1590" top="14085" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|¿Cómo estás?|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="465" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="2910" top="14115" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Quen tica?|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="467" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="5205" top="14040" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Más o menos|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="468" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
+  <BOUNDS type="Box" left="6540" top="14070" width="720" height="0">
+  </BOUNDS>
+  <PIN pinname="SliceOffset" visible="1">
+  </PIN>
+  <PIN pinname="Input String" visible="1" values="|Zancualyotica|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="469" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2205" top="4350" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="470" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="4875" top="4350" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="474" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2235" top="6120" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="475" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="4710" top="6405" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="476" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2055" top="8010" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="477" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="5205" top="8235" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="478" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2235" top="9810" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="479" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="5025" top="9825" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="480" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2310" top="11595" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="481" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="5190" top="11370" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="482" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2400" top="13335" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="483" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="5385" top="13320" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="484" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2355" top="14985" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="485" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="5340" top="14970" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="486" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2415" top="16920" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="487" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="5595" top="16935" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="488" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2445" top="18465" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="489" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="5595" top="18570" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="490" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="2415" top="20130" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="491" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
+  <BOUNDS type="Node" left="5820" top="20085" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="_ Layers out" visible="1">
+  </PIN>
+  <PIN pinname="_ front-text" visible="1">
+  </PIN>
+  <PIN pinname="_ back-text" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -626,64 +966,124 @@
   </LINK>
   <LINK srcnodeid="400" srcpinname="Layers Out" dstnodeid="407" dstpinname="Parent">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="386" dstpinname="_ Layers out">
+  <LINK srcnodeid="405" srcpinname="Output String" dstnodeid="469" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="404" dstpinname="_ Layers out">
+  <LINK srcnodeid="412" srcpinname="Output String" dstnodeid="469" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="412" srcpinname="Output String" dstnodeid="386" dstpinname="_ back-text">
+  <LINK srcnodeid="413" srcpinname="Output String" dstnodeid="470" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="405" srcpinname="Output String" dstnodeid="386" dstpinname="_ front-text">
+  <LINK srcnodeid="414" srcpinname="Output String" dstnodeid="470" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="413" srcpinname="Output String" dstnodeid="404" dstpinname="_ front-text">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="469" dstpinname="_ Layers out">
   </LINK>
-  <LINK srcnodeid="414" srcpinname="Output String" dstnodeid="404" dstpinname="_ back-text">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="470" dstpinname="_ Layers out">
   </LINK>
-  <LINK srcnodeid="416" srcpinname="Output String" dstnodeid="415" dstpinname="_ front-text">
+  <LINK srcnodeid="440" srcpinname="Output String" dstnodeid="474" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="417" srcpinname="Output String" dstnodeid="415" dstpinname="_ back-text">
+  <LINK srcnodeid="441" srcpinname="Output String" dstnodeid="474" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="415" dstpinname="_ Layers out">
+  <LINK srcnodeid="443" srcpinname="Output String" dstnodeid="475" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="419" srcpinname="Output String" dstnodeid="418" dstpinname="_ front-text">
+  <LINK srcnodeid="444" srcpinname="Output String" dstnodeid="475" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="420" srcpinname="Output String" dstnodeid="418" dstpinname="_ back-text">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="474" dstpinname="_ Layers out">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="418" dstpinname="_ Layers out">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="475" dstpinname="_ Layers out">
   </LINK>
-  <LINK srcnodeid="422" srcpinname="Output String" dstnodeid="421" dstpinname="_ front-text">
+  <LINK srcnodeid="446" srcpinname="Output String" dstnodeid="476" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="423" srcpinname="Output String" dstnodeid="421" dstpinname="_ back-text">
+  <LINK srcnodeid="447" srcpinname="Output String" dstnodeid="476" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="425" srcpinname="Output String" dstnodeid="424" dstpinname="_ front-text">
+  <LINK srcnodeid="449" srcpinname="Output String" dstnodeid="477" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="426" srcpinname="Output String" dstnodeid="424" dstpinname="_ back-text">
+  <LINK srcnodeid="450" srcpinname="Output String" dstnodeid="477" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="421" dstpinname="_ Layers out">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="476" dstpinname="_ Layers out">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="424" dstpinname="_ Layers out">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="477" dstpinname="_ Layers out">
   </LINK>
-  <LINK srcnodeid="428" srcpinname="Output String" dstnodeid="427" dstpinname="_ front-text">
+  <LINK srcnodeid="416" srcpinname="Output String" dstnodeid="478" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="429" srcpinname="Output String" dstnodeid="427" dstpinname="_ back-text">
+  <LINK srcnodeid="417" srcpinname="Output String" dstnodeid="478" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="431" srcpinname="Output String" dstnodeid="430" dstpinname="_ front-text">
+  <LINK srcnodeid="419" srcpinname="Output String" dstnodeid="479" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="432" srcpinname="Output String" dstnodeid="430" dstpinname="_ back-text">
+  <LINK srcnodeid="420" srcpinname="Output String" dstnodeid="479" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="427" dstpinname="_ Layers out">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="478" dstpinname="_ Layers out">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="430" dstpinname="_ Layers out">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="479" dstpinname="_ Layers out">
   </LINK>
-  <LINK srcnodeid="434" srcpinname="Output String" dstnodeid="433" dstpinname="_ front-text">
+  <LINK srcnodeid="422" srcpinname="Output String" dstnodeid="480" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="435" srcpinname="Output String" dstnodeid="433" dstpinname="_ back-text">
+  <LINK srcnodeid="423" srcpinname="Output String" dstnodeid="480" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="437" srcpinname="Output String" dstnodeid="436" dstpinname="_ front-text">
+  <LINK srcnodeid="425" srcpinname="Output String" dstnodeid="481" dstpinname="_ front-text">
   </LINK>
-  <LINK srcnodeid="438" srcpinname="Output String" dstnodeid="436" dstpinname="_ back-text">
+  <LINK srcnodeid="426" srcpinname="Output String" dstnodeid="481" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="433" dstpinname="_ Layers out">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="480" dstpinname="_ Layers out">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="436" dstpinname="_ Layers out">
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="481" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="428" srcpinname="Output String" dstnodeid="482" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="429" srcpinname="Output String" dstnodeid="482" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="431" srcpinname="Output String" dstnodeid="483" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="432" srcpinname="Output String" dstnodeid="483" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="482" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="483" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="464" srcpinname="Output String" dstnodeid="484" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="465" srcpinname="Output String" dstnodeid="484" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="467" srcpinname="Output String" dstnodeid="485" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="468" srcpinname="Output String" dstnodeid="485" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="484" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="485" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="486" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="487" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="452" srcpinname="Output String" dstnodeid="486" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="453" srcpinname="Output String" dstnodeid="486" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="455" srcpinname="Output String" dstnodeid="487" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="456" srcpinname="Output String" dstnodeid="487" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="434" srcpinname="Output String" dstnodeid="488" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="435" srcpinname="Output String" dstnodeid="488" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="437" srcpinname="Output String" dstnodeid="489" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="438" srcpinname="Output String" dstnodeid="489" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="488" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="489" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="458" srcpinname="Output String" dstnodeid="490" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="459" srcpinname="Output String" dstnodeid="490" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="461" srcpinname="Output String" dstnodeid="491" dstpinname="_ front-text">
+  </LINK>
+  <LINK srcnodeid="462" srcpinname="Output String" dstnodeid="491" dstpinname="_ back-text">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="490" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="491" dstpinname="_ Layers out">
   </LINK>
   </PATCH>
