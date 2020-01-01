@@ -363,7 +363,7 @@
   </PIN>
   </NODE>
   <NODE id="428" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1800" top="12540" width="720" height="0">
+  <BOUNDS type="Box" left="1830" top="14355" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -375,7 +375,7 @@
   </PIN>
   </NODE>
   <NODE id="429" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="3120" top="12570" width="720" height="0">
+  <BOUNDS type="Box" left="3150" top="14385" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -387,7 +387,7 @@
   </PIN>
   </NODE>
   <NODE id="431" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="4785" top="12480" width="720" height="0">
+  <BOUNDS type="Box" left="4815" top="14295" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -399,7 +399,7 @@
   </PIN>
   </NODE>
   <NODE id="432" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="6060" top="12450" width="720" height="0">
+  <BOUNDS type="Box" left="6090" top="14265" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -651,7 +651,7 @@
   </PIN>
   </NODE>
   <NODE id="464" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="1590" top="14085" width="720" height="0">
+  <BOUNDS type="Box" left="1620" top="12450" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -663,7 +663,7 @@
   </PIN>
   </NODE>
   <NODE id="465" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="2910" top="14115" width="720" height="0">
+  <BOUNDS type="Box" left="2940" top="12480" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -675,7 +675,7 @@
   </PIN>
   </NODE>
   <NODE id="467" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="5205" top="14040" width="720" height="0">
+  <BOUNDS type="Box" left="5235" top="12405" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -687,7 +687,7 @@
   </PIN>
   </NODE>
   <NODE id="468" nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox">
-  <BOUNDS type="Box" left="6540" top="14070" width="720" height="0">
+  <BOUNDS type="Box" left="6570" top="12435" width="720" height="0">
   </BOUNDS>
   <PIN pinname="SliceOffset" visible="1">
   </PIN>
@@ -819,7 +819,7 @@
   </PIN>
   </NODE>
   <NODE id="482" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2400" top="13335" width="100" height="100">
+  <BOUNDS type="Node" left="2430" top="15150" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Layers out" visible="1">
   </PIN>
@@ -831,7 +831,7 @@
   </PIN>
   </NODE>
   <NODE id="483" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5385" top="13320" width="100" height="100">
+  <BOUNDS type="Node" left="5415" top="15135" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Layers out" visible="1">
   </PIN>
@@ -843,7 +843,7 @@
   </PIN>
   </NODE>
   <NODE id="484" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="2355" top="14985" width="100" height="100">
+  <BOUNDS type="Node" left="2385" top="13350" width="100" height="100">
   </BOUNDS>
   <PIN pinname="_ Layers out" visible="1">
   </PIN>
@@ -855,7 +855,7 @@
   </PIN>
   </NODE>
   <NODE id="485" nodename="card.v4p" systemname="card" filename="card.v4p" componentmode="Hidden">
-  <BOUNDS type="Node" left="5340" top="14970" width="100" height="100">
+  <BOUNDS type="Node" left="5370" top="13335" width="720" height="100">
   </BOUNDS>
   <PIN pinname="_ Layers out" visible="1">
   </PIN>
@@ -1046,10 +1046,6 @@
   </LINK>
   <LINK srcnodeid="432" srcpinname="Output String" dstnodeid="483" dstpinname="_ back-text">
   </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="482" dstpinname="_ Layers out">
-  </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="483" dstpinname="_ Layers out">
-  </LINK>
   <LINK srcnodeid="464" srcpinname="Output String" dstnodeid="484" dstpinname="_ front-text">
   </LINK>
   <LINK srcnodeid="465" srcpinname="Output String" dstnodeid="484" dstpinname="_ back-text">
@@ -1057,10 +1053,6 @@
   <LINK srcnodeid="467" srcpinname="Output String" dstnodeid="485" dstpinname="_ front-text">
   </LINK>
   <LINK srcnodeid="468" srcpinname="Output String" dstnodeid="485" dstpinname="_ back-text">
-  </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="484" dstpinname="_ Layers out">
-  </LINK>
-  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="485" dstpinname="_ Layers out">
   </LINK>
   <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="486" dstpinname="_ Layers out">
   </LINK>
@@ -1094,10 +1086,18 @@
   </LINK>
   <LINK srcnodeid="462" srcpinname="Output String" dstnodeid="491" dstpinname="_ back-text">
   </LINK>
+  <LINK srcnodeid="492" srcpinname="Style Out" dstnodeid="389" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="484" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="485" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="482" dstpinname="_ Layers out">
+  </LINK>
+  <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="483" dstpinname="_ Layers out">
+  </LINK>
   <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="490" dstpinname="_ Layers out">
   </LINK>
   <LINK srcnodeid="407" srcpinname="Layers Out" dstnodeid="491" dstpinname="_ Layers out">
-  </LINK>
-  <LINK srcnodeid="492" srcpinname="Style Out" dstnodeid="389" dstpinname="Style In">
   </LINK>
   </PATCH>
